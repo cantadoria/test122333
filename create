@@ -1,0 +1,4 @@
+- name: creacion de directorios
+  file:
+    path: /etc/ula
+    state: directory
