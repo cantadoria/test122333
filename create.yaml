@@ -5,4 +5,10 @@
       file:
          path: /tmp/test
          state: directory
+    - name: Creación de tarea en todos los servers
+      ansible.builtin.cron:
+                         name: "task"
+                         minute: "0"
+                         hour: "22"
+                         job: "ls -alh > /dev/null"     
 ...
