@@ -1,5 +1,6 @@
-tasks:
-- name: creacion de directorios
+-hosts: web
+ tasks:
+  - name: creacion de directorios
   file:
     path: /etc/ula
     state: directory
