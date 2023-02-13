@@ -1,7 +1,8 @@
 ---
 - hosts: web
+  become: yes
   tasks:
-  - name: creacion de directorios
+  - name: direct
   file:
     path: /etc/ula
     state: directory
