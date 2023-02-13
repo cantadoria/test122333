@@ -1,4 +1,5 @@
 ---
+- hosts: webs
   tasks:
     - name: create a directory named test
       file:
