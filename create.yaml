@@ -1,3 +1,4 @@
+tasks:
 - name: creacion de directorios
   file:
     path: /etc/ula
